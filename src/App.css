@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+
+.container {
+  background-color: lavenderblush;
+  color: coral;
+  border-radius: 25px;
+  padding: 3em;
+}
+
+.cat-img {
+  width:30em;
+  border-radius: 10px;
+  border: coral;
+  border-width: 1em;
+}
