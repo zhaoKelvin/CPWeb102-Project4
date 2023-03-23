@@ -2,9 +2,9 @@
 
 Submitted by: **Kelvin Zhao**
 
-This web app: **insert description**
+This web app: **Using the Cats API, swipe through thousands of cats with their information of their breed, age-range, weight-range, and origin.**
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
@@ -41,7 +41,9 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The greatest challenge in building the app was learning how to dynamically create react elements based on a dictionary of values.
+However, an equally challenging challenge was and is figuring out how to pass data between parent and child components back and forth.
+In addition, I was extremely pressured for time as I have a final exam to study for, this leading me to not be able to finish the base features.
 
 ## License
 
