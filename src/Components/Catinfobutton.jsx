@@ -16,6 +16,7 @@ const CatInfoButton = ({infos, addToBanList}) => {
                 ) : (
                   ""
                 )}</h2>
+              {}
             </button>
           ))}
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css'
 import APIbutton from "./Components/APIbutton.jsx";
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import Catinfobutton from "./Components/Catinfobutton.jsx";
 
 const ACCESS_KEY = import.meta.env.VITE_APP_ACCESS_KEY;
@@ -48,9 +48,13 @@ function App() {
 
   }
 
-  const addToBanList = () => {
-
+  const addToBanList = (e) => {
+    setBanAttributes({...banAttributes,})
   }
+
+  useEffect( () => {
+    submitForm()
+  }, [])
 
   return (
     <div className="App">
@@ -60,7 +64,7 @@ function App() {
           <img src={currentImage} alt={"cat image"} className={"cat-img"}/>
           <Catinfobutton
             infos={catInfo}
-            onSubmit={addToBanList}
+            addToBanList={addToBanList}
           />
         </div>
         <APIbutton
